@@ -32,7 +32,7 @@ function derivedGameBoard(gameTurns)
 }
 function deriveGameWinner(gameBoard, player) {
   console.log("deriveGameWinner called with gameBoard:", gameBoard);
-
+//go
   let winner;
 
   for (const combination of WINNING_COMBINATIONS) {
